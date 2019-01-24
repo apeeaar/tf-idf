@@ -95,8 +95,7 @@ new1=[]
 for i in range(len(pol)):
     count=0
     for j in range(len(article)):
-        for k in range(len(article[j])):
-            if(pol[i] in article[j][k]):
+        if(pol[i] in article[j]):
                 count+=1
     new.append(count)
     new1.append(count)
